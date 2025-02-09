@@ -1,4 +1,5 @@
 import React from "react";
+import Scroll from "@/Components/Scroll/Scroll";
 
 export const metadata = {
   title: "About",
@@ -38,6 +39,7 @@ const About = () => {
         looking for ways to improve and enhance the user experience on our
         website. Happy browsing!
       </p>
+      <Scroll />
     </div>
   );
 };
