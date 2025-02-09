@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Scroll from "@/Components/Scroll/Scroll";
 
 export const metadata = {
   title: "Movie Details",
@@ -58,6 +59,7 @@ const MoviePage = async ({ params }) => {
             </Link>
           </div>
         </div>
+        <Scroll />
       </div>
     </>
   );
