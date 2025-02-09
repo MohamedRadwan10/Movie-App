@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-   title: "IMDB Clone",
+   title: "TMDB Clone",
   description: "This is a Movie Database Clone",
   icons: {
     icon: ["/favicon.ico?v=2"],
