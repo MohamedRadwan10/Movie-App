@@ -22,12 +22,14 @@ const Header = () => {
         <DarkModeSwitch />
         <MenuItems title="home" address="/" Icon={AiFillHome} />
         <MenuItems title="about" address="/about" Icon={BsFillInfoCircleFill} />
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
+       <div className="hover:text-blue-500">
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+          <SignedOut>
+            <SignInButton />
+          </SignedOut>
+        </div>
       </div>
     </div>
   );
