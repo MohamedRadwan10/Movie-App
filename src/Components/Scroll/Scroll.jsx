@@ -30,7 +30,7 @@ const Scroll = () => {
           <button
             onClick={() => handleScrollToTop()}
             className={`fa-solid fa-hand-pointer scroll fixed bottom-5 right-5 sm:bottom-10 sm:right-10
-                 p-2 sm:p-3 text-lg sm:text-xl md:text-2xl font-bold
+                 p-3 sm:p-3 text-lg sm:text-xl md:text-2xl font-bold
                  bg-blue-500 text-white rounded-3xl opacity-100 transition-opacity duration-300 hover:bg-blue-400 ${
                    scroll ? "opacity-100" : "opacity-0"
                  }`}
