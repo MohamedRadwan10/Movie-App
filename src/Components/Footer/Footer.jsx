@@ -4,15 +4,15 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-white dark:bg-gray-900">
+      <footer className="bg-gray-900">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link href="/" className="flex gap-1 items-center">
-                <span className=" text-2xl font-bold bg-blue-500 py-1 px-2 rounded-lg">
+                <span className=" text-2xl font-bold bg-blue-500 py-1 px-2 rounded-lg ">
                   TMDB
                 </span>
-                <span className=" text-xl hidden sm:inline">Clone</span>
+                <span className=" text-xl text-gray-400 dark:text-white hidden sm:inline">Clone</span>
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -22,12 +22,12 @@ const Footer = () => {
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <Link href="/" className="hover:underline ">
+                    <Link href="/" className="hover:underline hover:text-blue-500 ">
                       TMDB
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about" className="hover:underline">
+                    <Link href="/about" className="hover:underline hover:text-blue-500">
                       About
                     </Link>
                   </li>
@@ -41,7 +41,7 @@ const Footer = () => {
                   <li className="mb-4">
                     <Link
                       href="https://github.com/MohamedRadwan10"
-                      className="hover:underline "
+                      className="hover:underline hover:text-blue-500"
                       target="blank"
                     >
                       Github
@@ -50,7 +50,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="https://www.linkedin.com/in/mohamed-radwan-2779922ab/"
-                      className="hover:underline"
+                      className="hover:underline hover:text-blue-500"
                     >
                       LinkedIn
                     </Link>
@@ -63,12 +63,12 @@ const Footer = () => {
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <Link href="#" className="hover:underline">
+                    <Link href="#" className="hover:underline hover:text-blue-500">
                       Privacy Policy
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="hover:underline">
+                    <Link href="#" className="hover:underline hover:text-blue-500">
                       Terms &amp; Conditions
                     </Link>
                   </li>
@@ -80,7 +80,7 @@ const Footer = () => {
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2025
-              <Link href="/" className="hover:underline text-blue-700">
+              <Link href="/" className="hover:underline hover:text-blue-500 text-blue-700">
                 TMDB
               </Link>
               . All Rights Reserved.
@@ -89,7 +89,7 @@ const Footer = () => {
               <Link
                 href="https://github.com/MohamedRadwan10"
                 target="blank"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+                className="text-gray-500 hover:text-white dark:hover:text-white ms-5"
               >
                 <svg
                   className="w-4 h-4"
@@ -105,7 +105,7 @@ const Footer = () => {
               <Link
                 href="https://www.linkedin.com/in/mohamed-radwan-2779922ab/"
                 target="blank"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+                className="text-gray-500 hover:text-white dark:hover:text-white ms-5"
               >
                 <svg
                   className="w-4 h-4"
